@@ -1,14 +1,18 @@
 import "./App.css";
 import Accordian from "./components/Accordian/Accordian";
+import RandomColor from "./components/GeneratorRandomColor/RandomColor";
+import ImageSlider from "./components/ImageSlider/ImageSlider";
+import StarRating from "./components/Star-Rating/StarRating";
 
 function App() {
   return (
     <>
       <div className="App">
-        <h1>React Projects & Interview Questions</h1>
-
         {/* Accordian Component */}
-        <Accordian />
+        {/* <Accordian /> */}
+
+        {/* RandomColor Commponet */}
+        <RandomColor />
       </div>
     </>
   );
