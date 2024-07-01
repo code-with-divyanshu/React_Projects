@@ -10,4 +10,8 @@ Make Accordian using react hook useState() for single selection and Multiple Sel
 
 ### Project-2 Random Color Generator (Hex & Rgb color based on state)
 
-Male a Background color generator useing react useState() hook to manage change in color state.
+Make a Background color generator useing react useState() hook to manage change in color state.
+
+### Project-3 Star Rating (use state on click , mouseover, mouseleave)
+
+Male a Star Rating Project using react useState() when we mouseover the stars it's background change and when we click it it's and mouseleave it's display selected stars.
