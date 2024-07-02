@@ -14,4 +14,8 @@ Make a Background color generator useing react useState() hook to manage change 
 
 ### Project-3 Star Rating (use state on click , mouseover, mouseleave)
 
-Male a Star Rating Project using react useState() when we mouseover the stars it's background change and when we click it it's and mouseleave it's display selected stars.
+Make a Star Rating Project using react useState() hook when we mouseover the stars it's background change and when we click it it's and mouseleave it's display selected stars.
+
+### Project-4 Image Slider
+
+Make a Image Slider project using react useState() hook, first fetch img from api and display it on browser than make a functionality how to display one image at a time and make a slider.
