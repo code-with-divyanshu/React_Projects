@@ -1,0 +1,35 @@
+.load-more-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.product {
+  padding: 20px;
+  border: 2px solid;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.product-container {
+  display: grid;
+  gap: 10px;
+}
+
+.product img {
+  width: 250px;
+  height: 250px;
+}
+
+@media only screen and (min-width: 760px) {
+  .product-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+}
