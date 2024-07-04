@@ -23,3 +23,7 @@ Make a Image Slider project using react useState() hook, first fetch img from ap
 ### Project-5 Image Slider
 
 Make a Products list, load more api data project using react useState() hook, first fetch product data from api than show images and ttitle of image than make a function load more image after click on load more button.
+
+### Project-6 Nested Menu
+
+Make a Nested Menu, get data from data.js file and using map show individual label and thier children on web page using react hook useState() make a logic and program how to show children when their parent label clicked and make tree like structure menu ui.
