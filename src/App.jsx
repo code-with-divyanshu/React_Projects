@@ -32,7 +32,10 @@ function App() {
         {/* <LoadMoreData /> */}
 
         {/* NestedMenu/tree view/menu ui/recursive navigation menu Component  */}
-        <NestedMenu menus={menus} />
+        {/* <NestedMenu menus={menus} /> */}
+
+        {/* QRCodeGenerator Component */}
+        <QRCodeGenerator />
       </div>
     </>
   );
