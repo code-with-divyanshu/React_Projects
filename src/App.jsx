@@ -3,7 +3,10 @@ import Accordian from "./components/Accordian/Accordian";
 import RandomColor from "./components/GeneratorRandomColor/RandomColor";
 import ImageSlider from "./components/ImageSlider/ImageSlider";
 import LoadMoreData from "./components/LoadMoreData/LoadMoreData";
+import NestedMenu from "./components/NestedMenu/NestedMenu";
 import StarRating from "./components/Star-Rating/StarRating";
+import menus from "./components/NestedMenu/data";
+import QRCodeGenerator from "./components/QRCodeGenerate/QRCodeGenerator";
 
 function App() {
   return (
@@ -26,7 +29,10 @@ function App() {
         /> */}
 
         {/* LoadMoreData Component */}
-        <LoadMoreData />
+        {/* <LoadMoreData /> */}
+
+        {/* NestedMenu/tree view/menu ui/recursive navigation menu Component  */}
+        <NestedMenu menus={menus} />
       </div>
     </>
   );
