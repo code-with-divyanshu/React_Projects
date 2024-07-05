@@ -28,10 +28,14 @@ Make a Products list, load more api data project using react useState() hook, fi
 
 Make a Nested Menu, get data from data.js file and using map show individual label and thier children on web page using react hook useState() make a logic and program how to show children when their parent label clicked and make tree like structure menu ui.
 
-### Project-7 Image Slider
+### Project-7 QR Code Generator
 
 Make a QR code generator project using react library :
 
     npm i react-qr-code
 
 And do some other logical programming using react hook useState().
+
+### Project-7 Theme Switcher (Switch B/w Dark and Light Mode)
+
+Make Theme switcher project to switch between dark and light mode, using custom hook and react in built hook useState().
