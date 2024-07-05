@@ -7,6 +7,7 @@ import NestedMenu from "./components/NestedMenu/NestedMenu";
 import StarRating from "./components/Star-Rating/StarRating";
 import menus from "./components/NestedMenu/data";
 import QRCodeGenerator from "./components/QRCodeGenerate/QRCodeGenerator";
+import ThemeSwitch from "./components/ThemeSwitcher/ThemeSwitch";
 
 function App() {
   return (
@@ -35,7 +36,10 @@ function App() {
         {/* <NestedMenu menus={menus} /> */}
 
         {/* QRCodeGenerator Component */}
-        <QRCodeGenerator />
+        {/* <QRCodeGenerator /> */}
+
+        {/* ThemeSwitcher Component */}
+        <ThemeSwitch />
       </div>
     </>
   );
