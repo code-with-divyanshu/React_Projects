@@ -1,8 +1,8 @@
 # React Projects and Interview Project(Questions)
 
-In this i create a 20-react project which generally asked in interviews.
+In this repo i create a 20-react project which generally asked in interviews.
 
-## Projects
+## List of Projects
 
 ### Project-1 Accordian(Single & Multiple Selection)
 
@@ -36,6 +36,10 @@ Make a QR code generator project using react library :
 
 And do some other logical programming using react hook useState().
 
-### Project-7 Theme Switcher (Switch B/w Dark and Light Mode)
+### Project-8 Theme Switcher (Switch B/w Dark and Light Mode)
 
 Make Theme switcher project to switch between dark and light mode, using custom hook and react in built hook useState().
+
+### Project-9 Scroll Indicator (Indicate how much i scroll in particular space)
+
+Make Scroll Indicator project to Indicate how much i scroll in particular space, using react hook useState().
