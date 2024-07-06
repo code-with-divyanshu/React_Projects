@@ -8,6 +8,7 @@ import StarRating from "./components/Star-Rating/StarRating";
 import menus from "./components/NestedMenu/data";
 import QRCodeGenerator from "./components/QRCodeGenerate/QRCodeGenerator";
 import ThemeSwitch from "./components/ThemeSwitcher/ThemeSwitch";
+import ScrollIndicator from "./components/Scroll_Indicator/ScrollIndicator";
 
 function App() {
   return (
@@ -39,7 +40,10 @@ function App() {
         {/* <QRCodeGenerator /> */}
 
         {/* ThemeSwitcher Component */}
-        <ThemeSwitch />
+        {/* <ThemeSwitch /> */}
+
+        {/* ScrollIndicator Component */}
+        <ScrollIndicator url={`https://dummyjson.com/products?limit=100`} />
       </div>
     </>
   );
