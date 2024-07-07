@@ -43,3 +43,7 @@ Make Theme switcher project to switch between dark and light mode, using custom 
 ### Project-9 Scroll Indicator (Indicate how much i scroll in particular space)
 
 Make Scroll Indicator project to Indicate how much i scroll in particular space, using react hook useState().
+
+### Project-10 Custom Tabs
+
+Make a Custom Tabs Project using react hook useState() and make sum functionality on it. Tab a tabs and show dynamical content for particular tab.
