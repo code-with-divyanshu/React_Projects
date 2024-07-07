@@ -1,0 +1,34 @@
+.wrapper {
+  padding: 8px;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding: 8px;
+  margin-bottom: 20px;
+}
+
+.tab-item {
+  display: inline-flex;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 15px;
+  background-color: blueviolet;
+  cursor: pointer;
+  border: none;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.tab-item.active {
+  background-color: aquamarine;
+  color: #000;
+  border: 2px solid saddlebrown;
+}
+
+.content {
+  font-size: 20px;
+}
