@@ -9,6 +9,7 @@ import menus from "./components/NestedMenu/data";
 import QRCodeGenerator from "./components/QRCodeGenerate/QRCodeGenerator";
 import ThemeSwitch from "./components/ThemeSwitcher/ThemeSwitch";
 import ScrollIndicator from "./components/Scroll_Indicator/ScrollIndicator";
+import TabText from "./components/CustomTabs/TabText";
 
 function App() {
   return (
@@ -43,7 +44,10 @@ function App() {
         {/* <ThemeSwitch /> */}
 
         {/* ScrollIndicator Component */}
-        <ScrollIndicator url={`https://dummyjson.com/products?limit=100`} />
+        {/* <ScrollIndicator url={`https://dummyjson.com/products?limit=100`} /> */}
+
+        {/* Custom Tabs Component */}
+        <TabText />
       </div>
     </>
   );
