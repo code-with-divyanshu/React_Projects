@@ -47,3 +47,7 @@ Make Scroll Indicator project to Indicate how much i scroll in particular space,
 ### Project-10 Custom Tabs
 
 Make a Custom Tabs Project using react hook useState() and make sum functionality on it. Tab a tabs and show dynamical content for particular tab.
+
+### Project-11 Custom Modal
+
+Make a Custom Tabs Modal using react hook useState() and make sum functionality on it. When clicked on button we got a modal on screen.
