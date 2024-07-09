@@ -11,6 +11,7 @@ import ThemeSwitch from "./components/ThemeSwitcher/ThemeSwitch";
 import ScrollIndicator from "./components/Scroll_Indicator/ScrollIndicator";
 import TabText from "./components/CustomTabs/TabText";
 import ModleText from "./components/CustomModal/ModalText";
+import GithubProfileFinder from "./components/GithubProfileFinder/GithubProfileFinder";
 
 function App() {
   return (
@@ -51,7 +52,10 @@ function App() {
         {/* <TabText /> */}
 
         {/* Custom Modal Component */}
-        <ModleText />
+        {/* <ModleText /> */}
+
+        {/* Github Profile Finder Component  */}
+        <GithubProfileFinder />
       </div>
     </>
   );
