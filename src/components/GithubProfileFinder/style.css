@@ -1,0 +1,42 @@
+.input-wrapper {
+  margin: 10px;
+  padding: 10px;
+}
+
+input {
+  padding: 15px 40px;
+  margin-right: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(247, 228, 204);
+  color: black;
+}
+
+.input-wrapper button {
+  background-color: rgb(208, 153, 85);
+  padding: 13px 20px;
+}
+
+.bio {
+  margin: 10px 0;
+  color: saddlebrown;
+}
+
+.user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border: 2px solid brown;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: bisque;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.user img {
+  width: 300px;
+  border-radius: 20px;
+  padding: 10px;
+}
