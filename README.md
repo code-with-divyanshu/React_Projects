@@ -51,3 +51,7 @@ Make a Custom Tabs Project using react hook useState() and make sum functionalit
 ### Project-11 Custom Modal
 
 Make a Custom Tabs Modal using react hook useState() and make sum functionality on it. When clicked on button we got a modal on screen.
+
+### Project-12 Github Profile Finder
+
+Make a Github Profile Finder Project using react hook useState() , fetch github api using useEffect hook and make sum functionality on when we search user by user name than found a github profile.
