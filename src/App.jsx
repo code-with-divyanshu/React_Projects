@@ -12,6 +12,7 @@ import ScrollIndicator from "./components/Scroll_Indicator/ScrollIndicator";
 import TabText from "./components/CustomTabs/TabText";
 import ModleText from "./components/CustomModal/ModalText";
 import GithubProfileFinder from "./components/GithubProfileFinder/GithubProfileFinder";
+import TicTacToe from "./components/Tic_Tac_Toe/TicTacToe";
 
 function App() {
   return (
@@ -55,7 +56,10 @@ function App() {
         {/* <ModleText /> */}
 
         {/* Github Profile Finder Component  */}
-        <GithubProfileFinder />
+        {/* <GithubProfileFinder /> */}
+
+        {/* TicTacToe Component */}
+        <TicTacToe />
       </div>
     </>
   );
