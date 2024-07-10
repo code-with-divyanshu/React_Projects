@@ -22,7 +22,3 @@
 .square:focus-visible {
   outline: 4px auto rgb(224, 9, 9);
 }
-
-.h1 {
-  display: block;
-}
