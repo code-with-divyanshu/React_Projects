@@ -1,0 +1,28 @@
+.tic-tac-toe-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.square {
+  border: 2px solid rgb(160, 9, 225);
+  float: left;
+  font-size: 40px;
+  height: 100px;
+  padding: 0px;
+  text-align: center;
+  width: 100px;
+  margin-right: -1px;
+  margin-top: -1px;
+  cursor: pointer;
+}
+
+.square:focus,
+.square:focus-visible {
+  outline: 4px auto rgb(224, 9, 9);
+}
+
+.h1 {
+  display: block;
+}
